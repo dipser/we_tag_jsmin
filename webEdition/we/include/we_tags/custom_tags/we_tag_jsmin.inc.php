@@ -167,7 +167,7 @@ function we_tag_jsmin($attribs, $content) {
 	if ($only == 'src') {
 		return $targetPath;
 	} else {
-		return '<script type="text/javascript" src="'.$targetPath.'" /></script>'."\n";
+		return '<script type="text/javascript" src="'.$targetPath.'"></script>'."\n";
 	}
 
 
