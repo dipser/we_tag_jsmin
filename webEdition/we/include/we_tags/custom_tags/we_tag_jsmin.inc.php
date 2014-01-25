@@ -131,7 +131,7 @@ function we_tag_jsmin($attribs, $content) {
 			}
 		}
 
-		$result = $jsmin;
+		$result = JSMin::minify($jsmin);
 
 		try {
 			// Sichern in $target
